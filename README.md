@@ -15,3 +15,32 @@ You can can open PocketBase UI here:
     URL: https://[CI_CD_DOMAIN]
     Login: root
     password: [ADMIN_PASSWORD]
+
+
+# Additional configuration
+
+Once connected, you will need to configure the application url, to do that go to:
+
+    https://[CI_CD_DOMAIN]/_/#/settings
+
+There set a name for your application and in the Application URL field paste `[CI_CD_DOMAIN]` and save
+
+Then finally go to mail settings: 
+
+    https://[CI_CD_DOMAIN]/_/#/settings/mail
+
+There in the Sender address field type: [DOMAIN]@vm.elestio.app
+Activat the SMTP mail server and fill the configuration like this:
+
+    SMTP SERVER HOST: 172.17.0.1
+    PORT: 25
+    TLS ENCRYPTION: AUTO
+    USERNAME: (leave empty)
+    PASSWORD: (leave empty)
+
+Then save and send a test email to yourself 
+
+
+# Full documentation
+
+    https://pocketbase.io/docs/

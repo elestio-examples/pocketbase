@@ -34,5 +34,5 @@ lifeCycleConfig:
 webUI:
   - url: "https://[CI_CD_DOMAIN]/_/"
     label: "PocketBase Admin"
-    login: "root"
+    login: "[EMAIL]"
     password: "[ADMIN_PASSWORD]"
