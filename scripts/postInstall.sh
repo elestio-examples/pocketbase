@@ -1,7 +1,7 @@
 #set env vars
 set -o allexport; source .env; set +o allexport;
 
-target=$(docker-compose port app 8090)
+target=$(docker-compose port pocketbase 8090)
 
 curl http://${target}/api/admins \
   -H 'accept: */*' \
