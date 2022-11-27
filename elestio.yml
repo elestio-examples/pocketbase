@@ -10,36 +10,8 @@ ports:
 environments:
   - key: SOFTWARE_VERSION_TAG
     value: "latest"
-  - key: PEERTUBE_WEBSERVER_HOSTNAME
-    value: "[CI_CD_DOMAIN]"
-  - key: POSTGRES_USER
-    value: "postgres"
-  - key: POSTGRES_PASSWORD
-    value: "random_password"
-  - key: POSTGRES_DB
-    value: "peertube"
-  - key: PEERTUBE_DB_USERNAME
-    value: "postgres"
-  - key: PEERTUBE_DB_PASSWORD
-    value: "random_password"
-  - key: PEERTUBE_DB_SSL
-    value: "false"
-  - key: PEERTUBE_DB_HOSTNAME
-    value: "postgres"
-  - key: PEERTUBE_SMTP_HOSTNAME
-    value: "172.17.0.1"
-  - key: PEERTUBE_SMTP_PORT
-    value: "25"
-  - key: PEERTUBE_SMTP_FROM
-    value: "[DOMAIN]@vm.elestio.app"
-  - key: PEERTUBE_SMTP_TLS
-    value: "false"
-  - key: PEERTUBE_SMTP_DISABLE_STARTTLS
-    value: "false"
-  - key: PEERTUBE_ADMIN_EMAIL
-    value: "[EMAIL]"
-  - key: PT_INITIAL_ROOT_PASSWORD
-    value: "random_password"
+  - key: ADMIN_LOGIN
+    value: "root"
   - key: ADMIN_PASSWORD
     value: "random_password"
 
