@@ -29,8 +29,14 @@ Then finally go to mail settings:
 
     https://[CI_CD_DOMAIN]/_/#/settings/mail
 
-There in the Sender address field type: [DOMAIN]@vm.elestio.app
-Activat the SMTP mail server and fill the configuration like this:
+
+**Fill the below details:**
+
+**Step 1**: Sender address field type: [DOMAIN]@vm.elestio.app.
+            
+    Here [DOMAIN] will be your service cname.
+            
+**Step 2**: Enable the SMTP mail server toggle switch and fill in the configuration like this:
 
     SMTP SERVER HOST: 172.17.0.1
     PORT: 25
@@ -39,7 +45,6 @@ Activat the SMTP mail server and fill the configuration like this:
     PASSWORD: (leave empty)
 
 Then save and send a test email to yourself 
-
 
 # Full documentation
 
