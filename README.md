@@ -10,7 +10,7 @@ Deploy PocketBase with CI/CD on Elestio
 
 # When deploying ...
 
-You can can open PocketBase UI here:
+You can open PocketBase UI here:
 
     URL: https://[CI_CD_DOMAIN]
     Login: root
@@ -30,9 +30,9 @@ Then finally go to mail settings:
     https://[CI_CD_DOMAIN]/_/#/settings/mail
 
 
-**Fill the below details:**
+**Fill in the below details:**
 
-**Step 1**: Sender address field type: [DOMAIN]@vm.elestio.app.
+**Step 1**: Enter `[DOMAIN]@vm.elestio.app` in the Sender address field.
             
     Here [DOMAIN] will be your service cname.
             
