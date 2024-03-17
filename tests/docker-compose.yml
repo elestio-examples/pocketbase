@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  pocketbase:
+    image: elestio4test/pocketbase:${SOFTWARE_VERSION_TAG}
+    restart: always
+    user: 0:0
+    ports:
+      - 172.17.0.1:8090:8090
+    volumes:
+      - ./data:/pb_data
