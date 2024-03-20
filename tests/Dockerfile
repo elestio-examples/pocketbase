@@ -7,9 +7,9 @@ ARG TARGETPLATFORM
 RUN apk update && apk add curl wget unzip
 RUN addgroup -S pocketbase && adduser -S pocketbase -G pocketbase
 RUN if [ "${TARGETPLATFORM}" = "linux/amd64" ]; then \
-    wget https://github.com/pocketbase/pocketbase/releases/download/${POCKETBASE_VERSION}/pocketbase_${POCKETBASE_VERSION}_linux_amd64.zip -O '/tmp/pocketbase.zip'; \
+    wget https://github.com/pocketbase/pocketbase/releases/download/v${POCKETBASE_VERSION}/pocketbase_${POCKETBASE_VERSION}_linux_amd64.zip -O '/tmp/pocketbase.zip'; \
     elif [ "${TARGETPLATFORM}" = "linux/arm64" ]; then \
-    wget https://github.com/pocketbase/pocketbase/releases/download/${POCKETBASE_VERSION}/pocketbase_${POCKETBASE_VERSION}_linux_arm64.zip -O '/tmp/pocketbase.zip'; \
+    wget https://github.com/pocketbase/pocketbase/releases/download/v${POCKETBASE_VERSION}/pocketbase_${POCKETBASE_VERSION}_linux_arm64.zip -O '/tmp/pocketbase.zip'; \
     fi
 
 FROM alpine:3.16.0
