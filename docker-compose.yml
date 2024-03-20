@@ -1,8 +1,8 @@
-version: '3.7'
+version: "3.7"
 
 services:
   pocketbase:
-    image: augustodelg/pocketbase:${SOFTWARE_VERSION_TAG}
+    image: elestio/pocketbase:${SOFTWARE_VERSION_TAG}
     restart: always
     user: 0:0
     ports:
