@@ -13,7 +13,7 @@ Deploy PocketBase with CI/CD on Elestio
 You can open PocketBase UI here:
 
     URL: https://[CI_CD_DOMAIN]
-    Login: root
+    Login: [EMAIL]
     password: [ADMIN_PASSWORD]
 
 
@@ -23,7 +23,7 @@ Once connected, you will need to configure the application url, to do that go to
 
     https://[CI_CD_DOMAIN]/_/#/settings
 
-There set a name for your application and in the Application URL field paste `[CI_CD_DOMAIN]` and save
+There set a name for your application and in the Application URL field paste `https://[CI_CD_DOMAIN]` and save
 
 Then finally go to mail settings: 
 
