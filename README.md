@@ -12,7 +12,7 @@ Deploy PocketBase with CI/CD on Elestio
 
 You can open PocketBase UI here:
 
-    URL: https://[CI_CD_DOMAIN]
+    URL: https://[CI_CD_DOMAIN]/_/
     Login: [EMAIL]
     password: [ADMIN_PASSWORD]
 
